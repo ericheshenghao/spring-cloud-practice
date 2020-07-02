@@ -1,0 +1,36 @@
+server:
+  port: 9527
+spring:
+  application:
+    name: cloud-gateway
+  cloud:
+    gateway:
+        discovery:
+          locator:
+            enabled: true # 开启从注册中心动态创建路由的功能,利用微服务名进行路由
+        routes:
+        - id: payment_routh   #路由id 没有固定规则但要求唯一，配合服务名
+#          uri: http://localhost:8001 # 匹配提供服务的路由地址
+          uri: lb://cloud-payment-service
+          predicates:
+            - Path=/payment/get/**    #断言，路径相匹配进行路由
+        - id: payment_routh2
+#          uri: http://localhost:8001
+          uri: lb://cloud-payment-service
+#          filters:
+#            - AddRequestHeader=X-Request-Id, 1004 #过滤器工厂会在匹配的请求头上加上一对请求头,名称为X-Request-Id值为1024
+          predicates:
+            - Path=/payment/lb/**
+            - After=2020-04-05T14:05:12.686+08:00[Asia/Shanghai]
+#            - Cookie=username,zzyy
+#            - Header=X-Request-Id, \d+ #请求头要有X-Request-Id属性并且值为整数的正则表达式
+#            - Host=**.springcloud.com
+eureka:
+  instance:
+    prefer-ip-address: true #注册服务的时候使用服务的ip地址
+    hostname: cloud-gateway-service
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone:  http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka

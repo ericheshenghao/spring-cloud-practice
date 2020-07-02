@@ -1,0 +1,13 @@
+D:\web\spring-cloud\cloud-provider-payment8001\src\main\java\com\springcloud\usecase\port\repository\PaymentRepository.java
+D:\web\spring-cloud\cloud-provider-payment8001\src\main\java\com\springcloud\adapter\repository\PaymentRepositoryImpl.java
+D:\web\spring-cloud\cloud-provider-payment8001\src\main\java\com\springcloud\adapter\repository\BaseRepositoryImpl.java
+D:\web\spring-cloud\cloud-provider-payment8001\src\main\java\com\springcloud\adapter\repository\jpa\PaymentJpaRepository.java
+D:\web\spring-cloud\cloud-provider-payment8001\src\main\java\com\springcloud\adapter\controller\dto\RootDto.java
+D:\web\spring-cloud\cloud-provider-payment8001\src\main\java\com\springcloud\adapter\controller\dto\PaymentDto.java
+D:\web\spring-cloud\cloud-provider-payment8001\src\main\java\com\springcloud\adapter\controller\BaseController.java
+D:\web\spring-cloud\cloud-provider-payment8001\target\generated-sources\java\com\springcloud\adapter\repository\jpa\entity\QPaymentDo.java
+D:\web\spring-cloud\cloud-provider-payment8001\src\main\java\com\springcloud\adapter\repository\jpa\entity\PaymentDo.java
+D:\web\spring-cloud\cloud-provider-payment8001\src\main\java\com\springcloud\entity\PaymentEntity.java
+D:\web\spring-cloud\cloud-provider-payment8001\src\main\java\com\springcloud\adapter\controller\PaymentController.java
+D:\web\spring-cloud\cloud-provider-payment8001\src\main\java\com\springcloud\api\config\JpaConfig.java
+D:\web\spring-cloud\cloud-provider-payment8001\src\main\java\com\springcloud\PaymentMain8001.java

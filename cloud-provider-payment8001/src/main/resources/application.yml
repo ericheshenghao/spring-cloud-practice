@@ -1,0 +1,30 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: cloud-payment-service
+  zipkin:
+    base-url: http://localhost:9411
+  sleuth:
+    sampler:
+      # 采样率介于0-1之间,1代表全部采集
+      probability: 1
+  datasource:
+    username: root
+    password: l1itdhjaoiqw32kwqe$5asasd*a21
+    url: jdbc:mysql://localhost:3306/spring?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+eureka:
+  instance:
+    prefer-ip-address: true #注册服务的时候使用服务的ip地址
+    instance-id: payment8001
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone:  http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka

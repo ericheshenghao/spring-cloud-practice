@@ -1,0 +1,12 @@
+D:\web\spring-cloud\seata-storage-service2002\src\main\java\com\springcloud\controller\OrderController.java
+D:\web\spring-cloud\seata-storage-service2002\src\main\java\com\springcloud\config\SeataConfiguration.java
+D:\web\spring-cloud\seata-storage-service2002\src\main\java\com\springcloud\repository\Impl\StorageRepositoryImpl.java
+D:\web\spring-cloud\seata-storage-service2002\src\main\java\com\springcloud\SeataOrderMainApp2002.java
+D:\web\spring-cloud\seata-storage-service2002\target\generated-sources\java\com\springcloud\repository\jpa\QStorageDo.java
+D:\web\spring-cloud\seata-storage-service2002\src\main\java\com\springcloud\usecase\repository\StorageRepository.java
+D:\web\spring-cloud\seata-storage-service2002\src\main\java\com\springcloud\config\JpaConfiguration.java
+D:\web\spring-cloud\seata-storage-service2002\src\main\java\com\springcloud\repository\jpa\StorageDo.java
+D:\web\spring-cloud\seata-storage-service2002\src\main\java\com\springcloud\domain\StorageDto.java
+D:\web\spring-cloud\seata-storage-service2002\src\main\java\com\springcloud\usecase\StorageUsecase.java
+D:\web\spring-cloud\seata-storage-service2002\src\main\java\com\springcloud\domain\RootDto.java
+D:\web\spring-cloud\seata-storage-service2002\src\main\java\com\springcloud\repository\StorageJpaRepository.java
