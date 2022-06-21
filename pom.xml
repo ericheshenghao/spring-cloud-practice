@@ -63,7 +63,7 @@
     <junit.version>4.12</junit.version>
     <lombok.version>1.18.10</lombok.version>
     <log4j.version>1.2.28</log4j.version>
-    <mysql.version>8.0.18</mysql.version>
+    <mysql.version>8.0.28</mysql.version>
     <druid.version>1.1.16</druid.version>
     <jpa.version>2.2.2.RELEASE</jpa.version>
     <apt-maven-plugin.version>1.1.3</apt-maven-plugin.version>
